@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>Formulário de dados</h1>
+    </header>
+    <div class="fundo">
+            <section id="dados">
+                <div class="container">
+                    <h2>Preencha os campos:</h2>
+                    <form>
+                        <div class="form-campo">
+                            <label for="nome"  >Nome:</label>
+                            <input type="text" id="nome"name="nome">
+                        </div>
+                        <div class="form-campo">
+                            <label for="telefone" >Celular:</label>
+                            <input type="tel" id="telefone"name="telefone">
+                        </div>
+                        <div class="form-campo">
+                            <label for="email" >Email:</label>
+                            <input type="email" id="email"name="email">
+                        </div>
+                        <div class="form-campo">
+                            <label for="cpf">CPF:</label>
+                            <input type="number" id="cpf" name="cpf">
+                        </div>
+                        <div class="form-campo">
+                            <label for="endereço">Endereço:</label>
+                            <input type="text" id="endereço" name="endereço">
+                        </div>                        
+                        <div class="form-campo">
+                            <label for="cep">Cep:</label>
+                            <input type="number" id="cep" name="cep">
+                            <br>
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <footer>
+                <div class="container  container-flex">
+                    <p> 2024 &copy; Formulários - Todos os direitos reservados</p>                
+                </div>
+            </footer>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="jquery-validation-1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="jquery-validation-1.19.5/dist/localization/messages_pt_BR.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
